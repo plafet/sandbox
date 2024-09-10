@@ -1,0 +1,4 @@
+services:
+  testnginx:
+    image: nginx
+    container_name: best_nginx_never

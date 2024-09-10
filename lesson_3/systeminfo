@@ -1,0 +1,93 @@
+  *-cpu
+       product: AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx
+       vendor: Advanced Micro Devices [AMD]
+       physical id: 2
+       bus info: cpu@0
+       version: 23.24.1
+       width: 64 bits
+       capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp x86-64 constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch ssbd vmmcall fsgsbase bmi1 bmi2 rdseed clflushopt arat
+       configuration: microcode=4294967295
+инфа о проце
+MemTotal:        2014400 kB
+MemFree:          828936 kB
+MemAvailable:    1407644 kB
+Buffers:           30464 kB
+Cached:           675584 kB
+SwapCached:            0 kB
+Active:           859648 kB
+Inactive:         129284 kB
+Active(anon):     292808 kB
+Inactive(anon):        0 kB
+Active(file):     566840 kB
+Inactive(file):   129284 kB
+Unevictable:       27440 kB
+Mlocked:           27440 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:               328 kB
+Writeback:             0 kB
+AnonPages:        310324 kB
+Mapped:           362568 kB
+Shmem:              1176 kB
+KReclaimable:      28240 kB
+Slab:              87872 kB
+SReclaimable:      28240 kB
+SUnreclaim:        59632 kB
+KernelStack:        3936 kB
+PageTables:         5500 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     3104348 kB
+Committed_AS:    1423744 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       23548 kB
+VmallocChunk:          0 kB
+Percpu:             2384 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+Unaccepted:            0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      114624 kB
+DirectMap2M:     1982464 kB
+инфа о памяти из файла
+NAME                       SIZE FSTYPE      MOUNTPOINT
+loop0                     10.1M             /snap/canonical-livepatch/282
+loop1                     74.3M             /snap/core22/1586
+loop2                     74.3M             /snap/core22/1612
+loop3                     38.8M             /snap/snapd/21759
+sda                         25G             
+├─sda1                       1M             
+├─sda2                       2G ext4        /boot
+└─sda3                      23G LVM2_member 
+  └─ubuntu--vg-ubuntu--lv 11.5G ext4        /
+sr0                       1024M             
+блочные устройства, размер диска
+ Static hostname: zahar
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 11bb93af845c4f5a90864d15e09a0c9f
+         Boot ID: 16550d64b2d94b4585411e4442fccda1
+  Virtualization: oracle
+Operating System: Ubuntu 24.04 LTS
+          Kernel: Linux 6.8.0-41-generic
+    Architecture: x86-64
+ Hardware Vendor: innotek GmbH
+  Hardware Model: VirtualBox
+Firmware Version: VirtualBox
+   Firmware Date: Fri 2006-12-01
+    Firmware Age: 17y 9month 1w 1d
+чекнули версию системы, ядра и имя машины
+Ура! мы все выяснили. давай до свидания

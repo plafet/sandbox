@@ -1,0 +1,22 @@
+service:
+  test_nginx:
+    image: nginx
+    container_name: best_nginx_never
+    command: /bin/sh -c "cat /etc/nginx/nginx.conf"
+    ports:
+      - "80:80"
+      - "443:443"
+    healthcheck:
+      test: ["cmd","ls /"]
+      interval: 30s
+      timeout: 15s
+      retries: 3s
+    restart: unless-stopped
+    deploy: 
+      resourses: 
+        reservations: 
+          cpus: "0.1"
+          memory: 100M
+        limits:
+          cpus: 1
+          memory: 500M
