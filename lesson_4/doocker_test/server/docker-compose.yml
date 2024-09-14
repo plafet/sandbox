@@ -1,0 +1,5 @@
+services:
+  web:
+    image: test:latest
+    ports:
+      - "8888:8000"
