@@ -1,0 +1,45 @@
+services:
+  hello_1:
+    image: nginx:latest
+    container_name: best-nginx1
+    hostname: best-nginx1
+    volumes:
+#      - /home/metrolog/git/sandbox/lesson_4/doocker_test/server/test/conf/nginx.conf:/etc/nginx/nginx.conf
+      - ../www/1:/usr/share/nginx/html
+    ports:
+      - "8001:80"
+#    restart:
+ #     always
+#    command:
+ #     - nginx -s reload
+  hello_2:
+    image: nginx:latest
+    container_name: best-nginx2
+    hostname: best-nginx2
+    volumes:
+#      - /home/metrolog/git/sandbox/lesson_4/doocker_test/server/test/conf/nginx.conf:/etc/nginx/nginx.conf
+      - ../www/2:/usr/share/nginx/html
+    ports:
+      - "8002:80"
+#    restart:
+ #     always
+#    command:
+ #     - nginx -s reload
+  hello_3:
+    image: nginx:latest
+    container_name: best-nginx3
+    hostname: best-nginx3
+    volumes:
+#      - /home/metrolog/git/sandbox/lesson_4/doocker_test/server/test/conf/nginx.conf:/etc/nginx/nginx.conf
+      - ../www/3:/usr/share/nginx/html
+    ports:
+      - "8003:80"
+#    restart:
+ #     always
+#    command:
+ #     - nginx -s reload
+
+
+
+#sudo docker run -d --restart always --name test -p 8000:8000 -v /home/metrolog/git/sandbox/lesson_4/doocker_test/server/test/www:/usr/share/nginx/html nginx:stable
+#sudo docker run -d --restart always --name test -p 8000:80 -v /home/metrolog/git/sandbox/lesson_4/doocker_test/server/test/www:/usr/share/nginx/html  nginx:stable
